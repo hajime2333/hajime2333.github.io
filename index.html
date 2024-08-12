@@ -6,12 +6,21 @@ h1 {font-family:'Courier New', Courier, monospace}
 </style>
 <title>学习html的感想</title>
 </head>
-
+<div>
 <body style = "background-color: rgb(215, 212, 200);">
+<div id = "header" style ="background-color: rgba(210, 105, 30, 0.414);">
 <h1 style="color: aqua;text-align: center;"><img src="http://101.37.15.157:8080/wp-content/uploads/2024/07/cropped-20240730-215640.png" width="60" height="60"/>HAJIME的个人博客</h1>
-<p>这个网页是用来练习html的，<br>希望我能学好。</p>
+<p>这个网页是用来练习html的,<br>希望我能学好。</p>
 <hr>
-<h2>一、为什么要学HTML？</h2>
+</div>
+<div id = "menu" style = "background-color: rgba(231, 255, 195, 0.752);float:left;width: auto;height:1500px;">
+<b>目录</b> 
+<br><a href="#head1">一、为什么要学HTML?</a>
+<br><a href="#head2">二、html的小练习</a>
+</div>
+
+<h2 id="head1">一、为什么要学HTML?</h2>
+
 <h3>1、html好吃</h3>
 <h3>2、<a href= "http://101.37.15.157:8080/" target = "_blank" style ="text-decoration: none;"><del>因为这个网站</del></a></h3>
 <h3>3、以及这一段代码</h4>
@@ -22,7 +31,7 @@ h1 {font-family:'Courier New', Courier, monospace}
 <a href = "https://www.mydigit.cn/thread-360499-1-1.html" >
     <img src = "https://img.mydigit.cn/forum/202212/11/114348spc1qm0bwt1wc4ca.jpg" width="400" height="300" alt = "图片">
 </a>
-<h2>二、html的小练习</h2>
+<h2 id = "head2">二、html的小练习</h2>
 <h3>1、排版一首诗</h3>
 <p>   <b>《早发白帝城》</b>
 <br>            <i>李白</i>
@@ -49,5 +58,31 @@ h1 {font-family:'Courier New', Courier, monospace}
 </tr>
 </table>
 
+<h3>3、有序列表和无序列表</h3>
+<h4>(1)今天干什么</h4>
+<ol>
+    <li>上班</li>
+    <li>吃饭</li>
+    <li>睡觉</li>
+</ol>
+<h4>(2)今天学什么</h4>
+<ul>
+    <li>html</li>
+    <li>css</li>
+    <li>c</li>
+</ul>
+<h3>4、表单的练习</h3>
+<form action="">
+  first name:<input type ="text" name = "first_name ">
+  <br>last name:<input type ="text" name ="last_name">
+  <br><input type ="submit" value = "submit">
+</form>
+<form action="">
+    <input type="file" name = "file1">文件搜集
+</form>
+</div>
+<div id ="footer" style = "background-color: rgb(210, 210, 210);text-align: center;clear:both;font-size: small;font-family: 'Courier New', Courier, monospace;">
+版权所有©hajime
+</div>
 </body>
 </html>
